@@ -1,0 +1,174 @@
+*{
+    /* background-color: #242424; */
+    
+    color: white;
+    margin: 0;
+    padding: 0;
+}
+body{
+    background-image: url('wallpaper.jpg');
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    background-attachment: fixed;
+}
+.hi{
+    font-size: 80px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    margin-top: 120px;
+    margin-left:200px;
+    display: inline-block;
+    padding-bottom: 0%;
+    transition: transform .3s;
+}
+.hi:hover{
+    transform: scale(1.1);
+    text-shadow: 0 0 5px red;
+    color: red;
+}
+.harry{
+    display:inline-block;
+    font-size: 70px;
+    color: red;
+    transition: transform .3s;
+}
+.harry:hover{
+    transform: scale(1.2);
+    text-shadow: 0 0 5px red;
+}
+.name{
+    font-size: 60px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    margin-left:150px;
+    margin-bottom: 15px;
+
+}
+.separator{
+    display: flex;
+}
+.image{
+    position:absolute;
+    top: 200px;
+    left: 850px;
+    height: 300px;
+    width: 300px;
+    border-radius: 50%;
+    transition: transform .3s;
+}
+.image:hover{
+    transform: scale(1.2);
+    box-shadow: 0 0 25px blue;
+
+}
+.lowerline{
+    height: 3px;
+    color: red;
+    background-color: red;
+    border-color: red;
+    margin-left: 130px;
+    transition: transform.2s;
+}
+.lowerline:hover{
+    transform: scaleX(3);
+}
+
+.find{
+   display: flex;   
+    margin-top: 50px;
+}
+.reach{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 25px ;
+    margin-left: 150px;
+}
+.insta{
+    width: 25px;
+    height:25px;
+    border-radius: 25px;
+    margin:0 8px 0 15px;
+    transform: transform .3s;
+}
+.linkedin{
+    width: 25px;
+    height:25px;
+    border-radius: 25px;
+    margin:0 8px 0 8px;
+    transform: transform .3s;
+}
+.gmail{
+    width: 25px;
+    height:25px;
+    border-radius: 25px;
+    margin:0 8px 0 8px;
+    transform: transform .3s;
+}
+.insta:hover{
+    transform: scale(1.3);
+    box-shadow: 0 0 15px red;
+}
+.linkedin:hover{
+    transform: scale(1.3);
+    box-shadow: 0 0 15px red;
+}
+.gmail:hover{
+    transform: scale(1.3);
+    box-shadow: 0 0 15px red;
+}
+/* css used in about section */
+.text{
+    font-size: 30px;
+    margin-left:480px;
+    margin-bottom: 0px;
+    margin-top: 100px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+
+}
+h2{
+    color:white;
+    font-size: 45px;
+    margin-left: 50px;
+    margin-bottom: 5px;
+    margin-top: 50px;
+}
+hr{
+    border-width: 3px;
+    border-color: red;   
+    margin:10px 20px 10px 20px;
+}
+.skills{
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 20px;
+    margin-left: 150px;
+}
+.skills thead th{
+    font-size: 25px;
+    padding: 10px;
+    text-align: left;
+}
+.skills tbody td{
+    font-size: 20px;
+    padding: 12px 15px;
+}
+.hobbies li{
+    margin-top: 10px;
+    font-size: 20px;
+    padding: 5px ;
+    margin-left: 190px;
+
+}
+.aftertext
+{
+    width: 500px;
+    position: absolute;
+    left: 34%;
+    margin-bottom: 100px;
+}
+.home{
+    margin: 50px 0 0 50px;
+    height: 50px;
+    width: 50px;
+    border-radius: 50%;
+    transition: transform .3s;
+}
+.home:hover{
+    transform: scale(1.2);
+}
